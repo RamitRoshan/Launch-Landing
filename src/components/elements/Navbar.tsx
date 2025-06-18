@@ -1,4 +1,5 @@
 import { Container } from "../shared/Container";
+import logo from "../../assets/icon.svg";
 
 const navItems = [
     {href: "#", text: "Home"},
@@ -14,8 +15,8 @@ export const Navbar = () => {
                 <nav className="w-full flex justify-between gap-6 relative">
                     {/* Logo */}
                     <div className="min-w-max inline-flex relative">
-                        <a>
-                            <img/>
+                        <a href="/" className="relative flex items-center gap-3"> 
+                            <img src={logo}/>
                         </a>
                     </div>
                 </nav>
