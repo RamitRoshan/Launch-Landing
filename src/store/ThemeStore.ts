@@ -15,7 +15,8 @@ export const useThemeStore = create<ThemeStore>()(
             const newTheme: Theme = get().theme === "light" ? "dark" : "light";
             if(typeof document !== "undefined"){
                 document.documentElement.classList.toggle(
-                    "dark", newTheme === "dark"
+                    "dark", 
+                    newTheme === "dark"
                 );
             }
 
@@ -30,5 +31,6 @@ export const useThemeStore = create<ThemeStore>()(
         } else{
             document.documentElement.classList.remove("dark");
         }
-    }})
+    },
+})
 );
