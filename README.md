@@ -1,6 +1,6 @@
-# Launch-Landing
+# 🚀Launch Landing 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive landing page template for startups, product launches, or promotional campaigns. Built with modern web technologies for optimal performance.
 
 
 # After Creating app we install Tailwind CSS
