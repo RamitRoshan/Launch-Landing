@@ -12,7 +12,7 @@ export const Service = ({title, description, icon}: ServiceProps) => {
                         shadow-box-shadow relative overflow-hidden">
 
             <div 
-              className="rounded-xl bg-gray-300 dark:bg-gray-950 p-3 text-heading-1 w-max relative">
+              className="rounded-xl bg-body p-3 text-heading-1 w-max relative">
                 {icon}
             </div>
 

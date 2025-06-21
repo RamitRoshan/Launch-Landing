@@ -4,11 +4,11 @@ import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useThemeStore } from "../../store/ThemeStore";
 
-const navItems = [
+export const navItems = [
     {href: "#", text: "Home"},
-    {href: "services", text: "Services"},
-    {href: "about-us", text: "About Us"},
-    {href: "features", text: "Features"},
+    {href: "#services", text: "Services"},
+    {href: "#about-us", text: "About Us"},
+    {href: "#pricing", text: "Pricing"},
 ];
 
 export const Navbar = () => {
@@ -23,7 +23,7 @@ export const Navbar = () => {
                         <a href="/" className="relative flex items-center gap-3"> 
                             <img src={logo} alt="EdgeAI Logo" className="w-10 h-10"/>
                             <div className="inline-flex text-lg font-semibold text-heading-1">
-                                EdgeAI
+                                LinkAI
                             </div>
                         </a>
                     </div>
