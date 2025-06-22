@@ -49,4 +49,4 @@ A modern, responsive landing page for AI services with dark/light mode toggle. B
  
 ---
 
-💡 **Made by ❤️ Ramit Roshan
+💡 ** Made by ❤️ Ramit Roshan

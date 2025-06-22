@@ -4,9 +4,6 @@ import paypal from "../../assets/logos/paypal.png";
 import slack from "../../assets/logos/slack.png";
 import spotify from "../../assets/logos/spotify.png";
 import youtube from "../../assets/logos/youtube.png";
-
-
-
 import { Container } from "../shared/Container";
 import { Title } from "../shared/Title";
 
@@ -16,7 +13,6 @@ import { Title } from "../shared/Title";
 //     "paypal",
 //     "slack",
 //     "spotify",
-//    //"uber",
 //     "youtube",
 // ];
 
